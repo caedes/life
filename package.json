@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "shuss -d ./public -p $PORT -P basic-auth --username $USERNAME --password $PASSWORD"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,14 @@
   "license": "MIT",
   "config": {
     "paths": {
-      "build": "build"
+      "build": "public"
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.8.7",
     "gulp-jade": "^0.7.0",
-    "gulp-rimraf": "^0.1.0"
+    "gulp-rimraf": "^0.1.0",
+    "shuss": "^1.1.0",
+    "shuss-basic-auth": "~0.0.0"
   }
 }
