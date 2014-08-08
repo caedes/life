@@ -19,10 +19,11 @@
     }
   },
   "dependencies": {
+    "coffee-script": "~1.7.1",
     "gulp": "^3.8.7",
     "gulp-jade": "^0.7.0",
     "gulp-rimraf": "^0.1.0",
-    "shuss": "^1.1.0",
+    "shuss": "~1.0.1",
     "shuss-basic-auth": "~0.0.0"
   }
 }
