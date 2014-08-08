@@ -23,6 +23,7 @@
     "express": "^4.8.2",
     "gulp": "^3.8.7",
     "gulp-jade": "^0.7.0",
-    "gulp-rimraf": "^0.1.0"
+    "gulp-rimraf": "^0.1.0",
+    "http-auth": "^2.1.9"
   }
 }
