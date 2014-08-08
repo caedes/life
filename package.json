@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "shuss -d ./public -p $PORT -P basic-auth --username $USERNAME --password $PASSWORD"
+    "start": "shuss -d ./public -p $PORT -P basic-auth --username $USERNAME --password $PASSWORD",
+    "postinstall": "gulp"
   },
   "repository": {
     "type": "git",
