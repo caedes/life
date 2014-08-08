@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "shuss -d ./public -p $PORT -P basic-auth --username $USERNAME --password $PASSWORD",
+    "start": "node index.js",
     "postinstall": "gulp"
   },
   "repository": {
@@ -20,10 +20,9 @@
   },
   "dependencies": {
     "coffee-script": "~1.7.1",
+    "express": "^4.8.2",
     "gulp": "^3.8.7",
     "gulp-jade": "^0.7.0",
-    "gulp-rimraf": "^0.1.0",
-    "shuss": "~1.0.1",
-    "shuss-basic-auth": "~0.0.0"
+    "gulp-rimraf": "^0.1.0"
   }
 }
