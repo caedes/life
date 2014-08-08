@@ -1,0 +1,25 @@
+{
+  "name": "life",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:caedes26/life.git"
+  },
+  "author": "caedes",
+  "license": "MIT",
+  "config": {
+    "paths": {
+      "build": "build"
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jade": "^0.7.0",
+    "gulp-rimraf": "^0.1.0"
+  }
+}
