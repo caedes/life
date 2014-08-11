@@ -1,7 +1,7 @@
 var gulp  = require('gulp');
 var stylus = require('gulp-stylus');
 
-var config = require('../config');
+var config = require('../config.json');
 
 gulp.task('stylus', function () {
   gulp.src(config.paths.stylus)
