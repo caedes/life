@@ -13,6 +13,15 @@ $ gulp
 $ npm start
 ```
 
+## Todo
+
+* Date in `fr` with `moment.js`
+* Event type: `physic`, `intellectual`, `words`, `love`, etc...
+* Photo per event
+* Admin with `ActiveAdmin`. Simple Ruby project/API.
+* Fix web app logo
+* Change web app logo (from green to some pinky one)
+
 ## Inspiration
 
 * https://dribbble.com/shots/1255665-Travel-timeline
