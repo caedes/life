@@ -20,51 +20,7 @@ html(lang='fr')
 
     #timeline
       ul
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
-        li
-          = 'Naissance'
-          .date= '2014-01-09'
-        li
-          = 'Fais ses nuits'
-          .date= '2014-03'
+        - each event in events
+          li
+            = event.title
+            .date= event.date

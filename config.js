@@ -7,5 +7,11 @@ module.exports = {
     stylus: [
       'src/css/*.styl'
     ]
-  }
+  },
+  events: [
+    {
+      date: '2014-01-09',
+      title: 'Naissance'
+    }
+  ]
 };
