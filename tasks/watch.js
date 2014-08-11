@@ -1,7 +1,7 @@
 var gulp  = require('gulp');
 var livereload = require('gulp-livereload');
 
-var config = require('../package.json').config;
+var config = require('../config');
 
 gulp.task('watch', function() {
   livereload.listen();

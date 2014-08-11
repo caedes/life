@@ -1,7 +1,7 @@
 var gulp  = require('gulp');
 var jade = require('gulp-jade');
 
-var config = require('../package.json').config;
+var config = require('../config');
 
 gulp.task('jade', function () {
   gulp.src(config.paths.jade)

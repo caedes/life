@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var rimraf = require('gulp-rimraf');
 
-var config = require('../package.json').config;
+var config = require('../config');
 
 gulp.task('clean', function () {
   return gulp.src(config.paths.build + '/**/*', { read: false })

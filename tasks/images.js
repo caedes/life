@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 
-var config = require('../package.json').config;
+var config = require('../config');
 
 gulp.task('images', function () {
     return gulp.src('src/images/*')

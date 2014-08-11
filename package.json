@@ -13,17 +13,6 @@
   },
   "author": "caedes",
   "license": "MIT",
-  "config": {
-    "paths": {
-      "build": "public",
-      "jade": [
-        "src/index.jade"
-      ],
-      "stylus": [
-        "src/css/*.styl"
-      ]
-    }
-  },
   "dependencies": {
     "coffee-script": "~1.7.1",
     "express": "^4.8.2",
