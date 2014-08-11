@@ -20,7 +20,7 @@ html(lang='fr')
 
     #timeline
       ul
-        - each event in events
+        - each event in sortedEvents
           li
             = event.title
             .date= event.date
