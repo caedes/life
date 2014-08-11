@@ -20,7 +20,7 @@
         "src/index.jade"
       ],
       "stylus": [
-        "src/main.styl"
+        "src/css/main.styl"
       ]
     }
   },
