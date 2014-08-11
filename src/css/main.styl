@@ -3,7 +3,7 @@
 body
   margin 0
   background-color $backgroundColor
-  color #fff
+  color $appTitleColor
   font-family 'Open Sans', sans-serif
 
 header
@@ -20,19 +20,21 @@ header
     padding-top .5em
 
 #timeline
-  padding-top 5em
+  padding-top 3em
 
   ul
     width 100%
     height 100%
     padding 0
+    margin 0
 
     li
       list-style-type none
-      color #bbb
+      color $eventTitleColor
       font-size 1.4em
-      &:hover
-        color #fff
+      margin .2em 0
+      padding .2em
+      background-color $eventBackgroundColor
 
       .date
         font-size .6em
