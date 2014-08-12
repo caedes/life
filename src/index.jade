@@ -24,7 +24,9 @@ html(lang='fr')
         - each event in sortedEvents
           li
             .event_type
-              i.fa.fa-calendar
+              - event_type = event.type || 'calendar'
+              - event_classes = ['fa', 'fa-' + event_type]
+              i(class=event_classes.join(' '))
             .event
               = event.title
               .date= event.date
