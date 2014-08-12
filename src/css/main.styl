@@ -11,6 +11,7 @@ header
   width 100%
   height 3em
   position fixed
+  z-index 100
 
   h1
     margin 0
@@ -31,10 +32,41 @@ header
     li
       list-style-type none
       color $eventTitleColor
-      font-size 1.4em
-      margin .2em 0
+      font-size 1.2em
+      margin 0 0 1px 0
       padding .2em
       background-color $eventBackgroundColor
+      position relative
+
+      &:before
+        content ''
+        display block
+        width 2px
+        height 100%
+        background-color $backgroundColor
+        position absolute
+        top 0
+        left 1.45em
+
+      .event_type
+        display inline-block
+        position absolute
+        top .6em
+        left .8em
+
+        i
+          background-color $backgroundColor
+          width 1.2em
+          height 1.2em
+          padding .6em
+          color white
+          border-radius 1.2em
+          font-size .6em
+          text-align center
+
+      .event
+        margin-left 3em
+        display inline-block
 
       .date
-        font-size .6em
+        font-size .7em

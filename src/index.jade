@@ -11,7 +11,8 @@ html(lang='fr')
     link(rel='icon' sizes='196x196' href='images/logo.png')
     link(rel='apple-touch-icon' sizes='256x256' href='images/logo.png')
 
-    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css')
+    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css')
     link(rel='stylesheet' type='text/css' href='main.css')
 
   body
@@ -22,5 +23,8 @@ html(lang='fr')
       ul
         - each event in sortedEvents
           li
-            = event.title
-            .date= event.date
+            .event_type
+              i.fa.fa-calendar
+            .event
+              = event.title
+              .date= event.date
