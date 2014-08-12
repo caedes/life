@@ -15,6 +15,7 @@ $ npm start
 
 ## Todo
 
+* Events UI
 * Date in `fr` with `moment.js`
 * Event type: `physic`, `intellectual`, `words`, `love`, etc...
 * Photo per event
