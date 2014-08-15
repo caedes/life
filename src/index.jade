@@ -29,4 +29,4 @@ html(lang='fr')
               i(class=event_classes.join(' '))
             .event
               = event.title
-              .date= event.date
+              time(datetime=event.date)= event.displayDate
