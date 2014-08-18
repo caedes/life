@@ -21,12 +21,12 @@ html(lang='fr')
 
     #timeline
       ul
-        - each event in sortedEvents
+        - each exploit in sortedExploits
           li
-            .event_type
-              - event_type = event.type || 'calendar'
-              - event_classes = ['fa', 'fa-' + event_type]
-              i(class=event_classes.join(' '))
-            .event
-              = event.title
-              time(datetime=event.date)= event.displayDate
+            .exploit_type
+              - exploit_type = exploit.type || 'calendar'
+              - exploit_classes = ['fa', 'fa-' + exploit_type]
+              i(class=exploit_classes.join(' '))
+            .exploit
+              = exploit.title
+              time(datetime=exploit.date)= exploit.displayDate

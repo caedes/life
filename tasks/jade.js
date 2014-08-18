@@ -10,13 +10,13 @@ gulp.task('jade', function () {
   moment.locale('fr', {
     months: 'janvier février mars avril mai juin juillet août septembre octobre novembre décembre'.split(' ')
   });
-  config.events.map(function(event){
-    event.displayDate = moment(event.date).format('D MMMM YYYY');
+  config.exploits.map(function(exploit){
+    exploit.displayDate = moment(exploit.date).format('D MMMM YYYY');
 
-    return event;
+    return exploit;
   });
 
-  config.sortedEvents = _.sortBy(config.events, 'date');
+  config.sortedExploits = _.sortBy(config.exploits, 'date');
 
   gulp.src(config.paths.jade)
     .pipe(jade({

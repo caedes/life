@@ -15,8 +15,8 @@ $ npm start
 
 ## Todo
 
-* Event type: `physic`, `intellectual`, `words`, `love`, etc...
-* Photo per event
+* Exploit type: `physic`, `intellectual`, `words`, `love`, etc...
+* Photo per exploit
 * Admin with `ActiveAdmin`. Simple Ruby project/API.
 * Fix web app logo
 
