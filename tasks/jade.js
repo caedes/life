@@ -1,6 +1,5 @@
 var gulp  = require('gulp');
 var jade = require('gulp-jade');
-var _ = require('lodash');
 var moment = require('moment');
 
 var config = require('../config.json');
@@ -15,8 +14,6 @@ gulp.task('jade', function () {
 
     return exploit;
   });
-
-  config.sortedExploits = _.sortBy(config.exploits, 'date');
 
   gulp.src(config.paths.jade)
     .pipe(jade({
