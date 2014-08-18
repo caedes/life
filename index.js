@@ -1,4 +1,5 @@
 var express = require('express');
+var compress = require('compression');
 var app = express();
 
 var auth = require('http-auth');
@@ -8,6 +9,7 @@ var basic = auth.basic({
     algorithm: 'MD5'
 });
 
+app.use(compress());
 app.use(auth.connect(basic));
 app.use(express.static(__dirname + '/public'));
 
