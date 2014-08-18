@@ -6,6 +6,9 @@
     ],
     "stylus": [
       "src/css/*.styl"
+    ],
+    "fonts": [
+      "src/fonts/*"
     ]
   },
   "exploits": [
