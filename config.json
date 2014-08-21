@@ -10,6 +10,10 @@
     ],
     "fonts": [
       "bower_components/components-font-awesome/fonts/*"
+    ],
+    "js": [
+      "bower_components/react/react.min.js",
+      "src/js/*.js"
     ]
   },
   "exploits": [
