@@ -25,47 +25,5 @@
       "src/js/react/timeline.jsx",
       "src/js/react/index.jsx"
     ]
-  },
-  "exploits": [
-    {
-      "date": "2014-01-09",
-      "title": "Naissance",
-      "type": "heart"
-    },
-    {
-      "date": "2014-04-01",
-      "title": "Première nuit complète",
-      "type": "thumbs-o-up"
-    },
-    {
-      "date": "2014-08-10",
-      "title": "Retrouvée debout dans le lit",
-      "type": "child"
-    },
-    {
-      "date": "2014-08-05",
-      "title": "Premier bain assise",
-      "type": "child"
-    },
-    {
-      "date": "2014-07-21",
-      "title": "Première fois dans la grande poussette"
-    },
-    {
-      "date": "2014-07-14",
-      "title": "Première vue de l'océan (Arcachon)"
-    },
-    {
-      "date": "2014-07-06",
-      "title": "Premier tour manège"
-    },
-    {
-      "date": "2014-07-01",
-      "title": "Premier habit de princesse"
-    },
-    {
-      "date": "2014-03-17",
-      "title": "Premier jour à la MAM"
-    }
-  ]
+  }
 }

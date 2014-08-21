@@ -1,7 +1,15 @@
 var Timeline = React.createClass({
+  getInitialState: function() {
+    return {
+      data: []
+    };
+  },
+  componentDidMount: function () {
+    // AJAX on Life API
+  },
   render: function() {
     return (
-      <ExploitList />
+      <ExploitList data={this.state.data} />
     );
   }
 });
