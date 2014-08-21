@@ -5,11 +5,11 @@
       "src/index.jade"
     ],
     "stylus": [
-      "src/css/font-awesome.styl",
+      "bower_components/components-font-awesome/css/font-awesome.min.css",
       "src/css/app.styl"
     ],
     "fonts": [
-      "src/fonts/*"
+      "bower_components/components-font-awesome/fonts/*"
     ]
   },
   "exploits": [
