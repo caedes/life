@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 
 var config = require('../config.json');
 
-gulp.task('stylus', function () {
+gulp.task('css', function () {
   gulp.src(config.paths.stylus)
     .pipe(stylus({compress: true}))
     .pipe(concat('app.css'))

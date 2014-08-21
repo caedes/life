@@ -6,6 +6,6 @@ var config = require('../config.json');
 gulp.task('watch', function() {
   livereload.listen();
 
-  gulp.watch(config.paths.jade, ['jade']).on('change', livereload.changed);
-  gulp.watch(config.paths.stylus, ['stylus']).on('change', livereload.changed);
+  gulp.watch(config.paths.jade, ['html']).on('change', livereload.changed);
+  gulp.watch(config.paths.stylus, ['css']).on('change', livereload.changed);
 });

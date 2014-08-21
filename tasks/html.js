@@ -4,7 +4,7 @@ var moment = require('moment');
 
 var config = require('../config.json');
 
-gulp.task('jade', function () {
+gulp.task('html', function () {
   moment.locale('fr');
   moment.locale('fr', {
     months: 'janvier février mars avril mai juin juillet août septembre octobre novembre décembre'.split(' ')
