@@ -5,7 +5,8 @@
       "src/index.jade"
     ],
     "stylus": [
-      "src/css/*.styl"
+      "src/css/font-awesome.styl",
+      "src/css/app.styl"
     ],
     "fonts": [
       "src/fonts/*"
