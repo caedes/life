@@ -13,7 +13,16 @@
     ],
     "js": [
       "bower_components/react/react.min.js",
-      "src/js/*.js"
+      "src/js/*.js",
+      "public/react.js"
+    ],
+    "jsx": [
+      "src/js/react/exploit_time.jsx",
+      "src/js/react/exploit_type.jsx",
+      "src/js/react/exploit.jsx",
+      "src/js/react/exploit_list.jsx",
+      "src/js/react/timeline.jsx",
+      "src/js/react/index.jsx"
     ]
   },
   "exploits": [
