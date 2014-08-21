@@ -5,7 +5,9 @@ var Timeline = React.createClass({
     };
   },
   componentDidMount: function () {
-    // AJAX on Life API
+    $.getJSON(this.props.url, function(data){
+      this.setState({data: data});
+    }.bind(this));
   },
   render: function() {
     return (
