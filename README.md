@@ -16,6 +16,13 @@ $ npm start
 ## Todo
 
 * Photo per exploit
+* Dynamic JSON with ReactJS
+
+## React Components
+
+* Timeline
+* ExploitList
+* Exploit
 
 ## Inspiration
 
