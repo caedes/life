@@ -15,10 +15,7 @@ $ npm start
 
 ## Todo
 
-* Exploit type: `physic`, `intellectual`, `words`, `love`, etc...
 * Photo per exploit
-* Admin with `ActiveAdmin`. Simple Ruby project/API.
-* Fix web app logo
 
 ## Inspiration
 
