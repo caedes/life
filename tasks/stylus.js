@@ -6,7 +6,7 @@ var config = require('../config.json');
 
 gulp.task('stylus', function () {
   gulp.src(config.paths.stylus)
-    .pipe(stylus())
+    .pipe(stylus({compress: true}))
     .pipe(concat('app.css'))
     .pipe(gulp.dest(config.paths.build));
 });
