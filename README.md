@@ -15,7 +15,6 @@ $ npm start
 
 ## Todo
 
-* http://fontastic.me/
 * http://daneden.github.io/animate.css/
 * Photo per exploit
 

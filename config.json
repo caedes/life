@@ -5,11 +5,11 @@
       "src/index.jade"
     ],
     "stylus": [
-      "bower_components/components-font-awesome/css/font-awesome.min.css",
+      "src/css/fontastic.css",
       "src/css/app.styl"
     ],
     "fonts": [
-      "bower_components/components-font-awesome/fonts/*"
+      "src/fonts/*"
     ],
     "js": [
       "bower_components/react/react.min.js",
