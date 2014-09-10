@@ -1,17 +1,17 @@
 var Timeline = React.createClass({
   getInitialState: function() {
     return {
-      data: []
+      exploits: []
     };
   },
   componentDidMount: function () {
     $.getJSON(this.props.url, function(data){
-      this.setState({data: data});
+      this.setState({exploits: data});
     }.bind(this));
   },
   render: function() {
     return (
-      <ExploitList data={this.state.data} />
+      <ExploitList exploits={this.state.exploits} />
     );
   }
 });
