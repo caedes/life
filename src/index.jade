@@ -18,15 +18,5 @@ html(lang='fr')
       h1 Julia
 
     #timeline
-      //- ul
-      //-   - each exploit in exploits
-      //-     li
-      //-       .exploit_type
-      //-         - exploit_type = exploit.type || 'calendar'
-      //-         - exploit_classes = ['fa', 'fa-' + exploit_type]
-      //-         i(class=exploit_classes.join(' '))
-      //-       .exploit
-      //-         = exploit.title
-      //-         time(datetime=exploit.date)= exploit.displayDate
 
     script(type='text/javascript' src='app.js')
