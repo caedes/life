@@ -1,7 +1,7 @@
 var gulp  = require('gulp');
 var concat = require('gulp-concat');
 
-var config = require('../config.json');
+var config = require('../config/gulp.json');
 
 gulp.task('javascript', ['react'], function () {
   gulp.src(config.paths.js)
