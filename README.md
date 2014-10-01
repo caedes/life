@@ -10,7 +10,7 @@ $ npm install
 
 ```bash
 $ gulp
-$ npm start
+$ nf start
 ```
 
 ## Todo
