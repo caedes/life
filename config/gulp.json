@@ -14,6 +14,6 @@
     "images": "app/client/images/**/*"
   },
   "browserify": {
-    "app": "./app/client/main.jsx"
+    "app": "./app/client/main.js"
   }
 }
