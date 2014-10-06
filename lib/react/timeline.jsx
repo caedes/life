@@ -1,3 +1,7 @@
+var React = require('react');
+var ExploitList = require('./exploit_list.jsx');
+var $ = require('zepto-browserify').$;
+
 var Timeline = React.createClass({
   getInitialState: function() {
     return {
@@ -15,3 +19,5 @@ var Timeline = React.createClass({
     );
   }
 });
+
+module.exports = Timeline;

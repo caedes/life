@@ -10,21 +10,9 @@
     ],
     "fonts": [
       "app/client/fonts/*"
-    ],
-    "js": [
-      "bower_components/react/react.min.js",
-      "bower_components/moment/min/moment-with-locales.min.js",
-      "bower_components/zepto/zepto.min.js",
-      "app/client/js/*.js",
-      "public/react.js"
-    ],
-    "jsx": [
-      "app/client/js/react/exploit_time.jsx",
-      "app/client/js/react/exploit_type.jsx",
-      "app/client/js/react/exploit.jsx",
-      "app/client/js/react/exploit_list.jsx",
-      "app/client/js/react/timeline.jsx",
-      "app/client/js/react/index.jsx"
     ]
+  },
+  "browserify": {
+    "app": "./app/client/main.jsx"
   }
 }
