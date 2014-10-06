@@ -10,7 +10,8 @@
     ],
     "fonts": [
       "app/client/fonts/*"
-    ]
+    ],
+    "images": "app/client/images/**/*"
   },
   "browserify": {
     "app": "./app/client/main.jsx"
